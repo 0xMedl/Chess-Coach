@@ -8,7 +8,7 @@
 static void	parse_eval(const char *info, int *cp, char *eval_str,
 			int *is_mate, int *mate_in)
 {
-	char	*p;
+	const char	*p;
 	int	val;
 
 	*cp = 0;
