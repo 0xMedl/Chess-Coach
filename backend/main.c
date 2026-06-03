@@ -65,8 +65,8 @@ static int	callback_chess(struct lws *wsi,
 }
 
 static struct lws_protocols	protocols[] = {
-	{"chess-coach", callback_chess, 0, 4096},
-	{NULL, NULL, 0, 0}
+	{"chess-coach", callback_chess, 0, 4096, 0, NULL, 0},
+	{NULL, NULL, 0, 0, 0, NULL, 0}
 };
 
 int	main(void)
